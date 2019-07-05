@@ -1,0 +1,160 @@
+
+			html{
+
+			}
+			body {
+				margin: 0;
+                padding: 0;
+				/* height: 200vh; */
+				/* overflow:hidden; */
+				/* background: url(../img/wallpaper.png) no-repeat; */
+				background: url(../img/wallpaper.jpg) no-repeat center fixed; 
+  				-webkit-background-size: cover;
+  				-moz-background-size: cover;
+  				-o-background-size: cover;
+  				background-size: cover;
+				
+				font-family:  sans-serif;
+  				line-height: 1.7;
+  				font-size: 1.6rem;
+  				font-weight: 400;
+  				color: rgb(14, 1, 1);
+ 			}
+ 			
+			#MENU{
+				position: fixed;
+				z-index: 10;
+				width: 100%;
+			}
+
+            #MENU ul{
+							 
+				text-align: right;
+                list-style-type: none;
+  				margin: 0;
+  				padding: 0;
+  				overflow: hidden;
+  				background-color: rgba(51, 51, 51, 0.9);
+            }
+			#MENU li{
+				display:inline-block; 
+				/* float: left; */
+			}
+			#MENU li > a{
+				cursor: pointer;
+				font-weight: 600;
+				display:block;
+				color: white;		
+				font-size: 65.5%;
+				text-decoration: none;
+				padding: 10px;
+				margin: 2px;
+				border: 2px solid white;			
+			}
+
+			#MENU li.inputText {
+				float:left;
+				margin-left: 2%;
+				/* background-color: green;  */
+			}
+
+			#MENU li :hover {
+  				background-color: rgb(187, 187, 54);
+  				color: black;
+			}
+			div.recipe{
+				visibility: hidden;
+				z-index: 5;
+				/* position: absolute; */
+				height: 100vh;
+				/* left: 0;
+				top: 0; */
+				/* height: 0vh; */
+				box-sizing: border-box;
+				padding: 0;
+				width: 100%;
+				border: 2px dotted blue;	
+				margin: 0px auto;
+				color:white;
+				background-color: rgba(51, 51, 51, 0.9);
+				overflow-y: scroll;
+			}
+			div.text{
+				visibility: hidden;
+				margin: 10vh 25vw; 
+				position: fixed;
+				z-index: 20;
+				width: 50%;
+				border-radius: 5px;
+  				background-color: rgba(242, 242, 242, 0.9);
+  				padding: 20px;
+			}
+			a.close {
+				
+				position: fixed;
+				right: 2%;
+
+				margin-right: 10px;
+				color:white;
+				cursor: pointer;
+				margin-top: 10px;
+				padding-left: 10px;
+				padding-right: 10px;
+				border: 1px solid white;
+			}
+
+
+			footer{				
+				margin: 0;
+  				padding: 0;
+  				background-color: rgba(239, 239, 239, 0.8);
+  				text-align: center;
+			}
+			article{
+				padding-top: 30vh;
+				color: white;
+				text-transform: uppercase;
+
+				font-weight: 400;
+				letter-spacing: .3em;
+				/* background: rgba(36, 89, 110, 0.5); */
+        		/* padding-top: 100px; */
+				padding-bottom: 10px;
+				padding-left: 10%;
+				padding-right: 10%;
+				width: 80%;
+				/* height: 500px; */
+				text-align: center;
+				 /* border: 1px solid black;  */
+			}
+
+			div.addMenu{
+				visibility: hidden;
+				margin: 10vh 25vw; 
+				position: fixed;
+				z-index: 20;
+				width: 50%;
+				border-radius: 5px;
+  				background-color: rgba(242, 242, 242, 0.9);
+  				padding: 20px;
+				/* visibility: hidden; */
+			}
+			button, input, select, textarea {
+  				width: 100%;
+  				padding: 12px;
+  				border: 1px solid #ccc;
+  				border-radius: 2px;
+  				box-sizing: border-box;
+  				margin-top: 0px;
+  				margin-bottom: 0px;
+  				resize: vertical;
+			}
+		input[type=submit]:hover {
+  			background-color: #45a049;
+			cursor: pointer;
+		
+		}	
+		button:hover {
+  			background-color: #c22914;
+			cursor: pointer;	
+		}
